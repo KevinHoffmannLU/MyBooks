@@ -4,6 +4,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 a {
@@ -38,9 +41,12 @@ html {
 }
 
 .header {
-  width: 80%;
+  width: -moz-fit-content;
+  width: fit-content;
   padding: 2rem 0;
   text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #1ba098;
 }
 .header__title {
   color: #deb992;
@@ -74,6 +80,7 @@ html {
   border: 0.2rem solid #1ba098;
   background-color: rgba(255, 255, 255, 0.03);
   box-shadow: 0 0 1rem rgba(255, 255, 255, 0.5);
+  border-radius: 0.5rem;
   overflow: scroll;
   scrollbar-width: none;
   color: #fae9dd;
@@ -81,7 +88,7 @@ html {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 2.5rem;
   padding: 2rem 4rem;
 }
 .books-container__book {

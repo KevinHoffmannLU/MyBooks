@@ -1,0 +1,95 @@
+{
+  "books": [
+    {
+      "title": "Designing Data-Intensive Applications",
+      "author": "Martin Kleppmann",
+      "img": "../img/designing-data-intensive-applications.png",
+      "status": "Not Read",
+      "rating": ""
+    },
+    {
+      "title": "12 Rules for Life",
+      "author": "Jordan B. Peterson",
+      "img": "../img/12-rules-for-life.png",
+      "status": "Read",
+      "rating": 3
+    },
+    {
+      "title": "The Productivity Project",
+      "author": "Chris Bailey",
+      "img": "../img/the-productivity-project.png",
+      "status": "Reading",
+      "rating": 5
+    },
+    {
+      "title": "Everything You Need to Ace Pre-Algebra and Algebra I in One Big Fat Notebook",
+      "author": "Workman Publishing",
+      "img": "../img/pre-algebra.png",
+      "status": "Not Read",
+      "rating": ""
+    },
+    {
+      "title": "The Art of Living a Meaningless Existence",
+      "author": "Robert Pantano",
+      "img": "../img/the-art-of-meaningless.png",
+      "status": "Not Read",
+      "rating": ""
+    },
+    {
+      "title": "$100M Offers",
+      "author": "Alex Hormozi",
+      "img": "../img/100m-offers.png",
+      "status": "Not Read",
+      "rating": ""
+    },
+    {
+      "title": "$100M Leads",
+      "author": "Alex Hormozi",
+      "img": "../img/100m-leads.png",
+      "status": "Not Read",
+      "rating": ""
+    },
+    {
+      "title": "The Millionaire Fastlane",
+      "author": "MJ DeMarco",
+      "img": "../img/millionaire-fastlane.png",
+      "status": "Read",
+      "rating": "4.5"
+    },
+    {
+      "title": "The Personal MBA",
+      "author": "Josh kaufman",
+      "img": "../img/personal-mba.png",
+      "status": "Reading",
+      "rating": ""
+    },
+    {
+      "title": "The 7 Habits of Highly Effective People",
+      "author": "Stephen R. Covey",
+      "img": "../img/the-7-habits.png",
+      "status": "Reading",
+      "rating": ""
+    },
+    {
+      "title": "",
+      "author": "",
+      "img": "../img/productivity.png",
+      "status": "Not Read",
+      "rating": ""
+    },
+    {
+      "title": "",
+      "author": "",
+      "img": "../img/productivity.png",
+      "status": "Not Read",
+      "rating": ""
+    },
+    {
+      "title": "",
+      "author": "",
+      "img": "../img/productivity.png",
+      "status": "Not Read",
+      "rating": ""
+    }
+  ]
+}

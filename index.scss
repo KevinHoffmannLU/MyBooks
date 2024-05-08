@@ -11,6 +11,7 @@ $text-color: #fae9dd;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  user-select: none;
 }
 
 a {
@@ -50,10 +51,12 @@ html {
 
 // Header
 .header {
-  width: 80%;
+  width: fit-content;
   padding: 2rem 0;
   text-align: center;
-  //   border-bottom: 2px solid $accent-color;
+  //   border-bottom: 1px solid $accent-color;
+  text-decoration: underline;
+  text-decoration-color: $accent-color;
 
   &__title {
     color: $title-color;
@@ -91,6 +94,7 @@ html {
   border: 0.2rem solid $accent-color;
   background-color: rgba(white, 0.03);
   box-shadow: 0 0 1rem rgba(white, 0.5);
+  border-radius: 0.5rem;
   overflow: scroll;
   scrollbar-width: none;
 
@@ -99,7 +103,7 @@ html {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 2.5rem;
   padding: 2rem 4rem;
 
   &__book {
