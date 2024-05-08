@@ -25,6 +25,18 @@ html {
   align-items: center;
 }
 
+.read {
+  color: #1ba098;
+}
+
+.reading {
+  color: #f2b705;
+}
+
+.not-read {
+  color: #f25f5c;
+}
+
 .header {
   width: 80%;
   padding: 2rem 0;
@@ -36,19 +48,13 @@ html {
   font-weight: 700;
 }
 
-.main {
-  width: 150rem;
-  height: calc(100vh - 16rem);
-  border: 2px solid #1ba098;
-  background-color: rgba(255, 255, 255, 0.03);
-}
-.main__nav {
-  padding: 1rem 0;
+.nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 2rem;
 }
-.main__nav__search {
+.nav__search {
   all: unset;
   font-family: "Roboto", sans-serif;
   text-align: center;
@@ -60,4 +66,59 @@ html {
   border-radius: 9999rem;
   overflow: hidden;
   background-color: rgba(255, 255, 255, 0.75);
+}
+
+.books-container {
+  width: 170rem;
+  height: calc(100vh - 20rem);
+  border: 0.2rem solid #1ba098;
+  background-color: rgba(255, 255, 255, 0.03);
+  box-shadow: 0 0 1rem rgba(255, 255, 255, 0.5);
+  overflow: scroll;
+  scrollbar-width: none;
+  color: #fae9dd;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem 4rem;
+}
+.books-container__book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  width: 29.4rem;
+  height: 41.58rem;
+  padding: 2rem;
+  border: 0.1rem solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  transition: all 0.2s;
+}
+.books-container__book:hover {
+  background-color: rgba(0, 0, 0, 0.35);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+.books-container__book__title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 25rem;
+}
+.books-container__book__author {
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+}
+.books-container__book__img-container__img {
+  height: 25rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 0.2rem solid rgba(255, 255, 255, 0.5);
 }/*# sourceMappingURL=index.css.map */

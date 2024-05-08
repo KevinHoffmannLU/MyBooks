@@ -35,6 +35,19 @@ html {
   align-items: center;
 }
 
+// Utils
+.read {
+  color: #1ba098;
+}
+
+.reading {
+  color: #f2b705;
+}
+
+.not-read {
+  color: #f25f5c;
+}
+
 // Header
 .header {
   width: 80%;
@@ -49,34 +62,93 @@ html {
   }
 }
 
-.main {
-  width: 150rem;
-  height: calc(100vh - 16rem);
-  border: 2px solid $accent-color;
-  background-color: rgba(white, 0.03);
+// Navigation
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
 
-  &__nav {
-    padding: 1rem 0;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    &__search {
-      all: unset;
-      font-family: "Roboto", sans-serif;
-      text-align: center;
-      line-height: 3rem;
-      font-size: 2rem;
-      color: $background-color;
-      height: 3rem;
-      width: 40rem;
-      border-radius: 9999rem;
-      overflow: hidden;
-      background-color: rgba(white, 0.75);
-    }
+  &__search {
+    all: unset;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 2rem;
+    color: $background-color;
+    height: 3rem;
+    width: 40rem;
+    border-radius: 9999rem;
+    overflow: hidden;
+    background-color: rgba(white, 0.75);
   }
+}
 
-  &__books-container {
+// Books
+.books-container {
+  width: 170rem;
+  height: calc(100vh - 20rem);
+  border: 0.2rem solid $accent-color;
+  background-color: rgba(white, 0.03);
+  box-shadow: 0 0 1rem rgba(white, 0.5);
+  overflow: scroll;
+  scrollbar-width: none;
+
+  color: $text-color;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem 4rem;
+
+  &__book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    width: 29.4rem;
+    height: 41.58rem;
+    padding: 2rem;
+    border: 0.1rem solid rgba(white, 0.2);
+    background-color: rgba(black, 0.15);
+    overflow: hidden;
+    transition: all 0.2s;
+
+    &:hover {
+      background-color: rgba(black, 0.35);
+      border-color: rgba(white, 0.4);
+    }
+
+    &__title {
+      font-size: 2.5rem;
+      font-weight: 700;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 25rem;
+    }
+
+    &__author {
+      font-size: 2rem;
+      font-weight: 500;
+      text-align: center;
+    }
+
+    &__img-container {
+      &__img {
+        height: 25rem;
+        object-fit: cover;
+        border: 0.2rem solid rgba(white, 0.5);
+      }
+    }
+
+    &__status {
+    }
+
+    &__rating {
+    }
   }
 }
