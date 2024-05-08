@@ -1,0 +1,82 @@
+// Variable
+$background-color: #051622;
+$title-color: #deb992;
+$accent-color: #1ba098;
+$text-color: #fae9dd;
+
+// Reset
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+// Global
+
+html {
+  font-size: 62.5%;
+}
+
+.body {
+  width: 100vw;
+  height: 100vh;
+  background-color: $background-color;
+  font-family: "Roboto", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+// Header
+.header {
+  width: 80%;
+  padding: 2rem 0;
+  text-align: center;
+  //   border-bottom: 2px solid $accent-color;
+
+  &__title {
+    color: $title-color;
+    font-size: 6rem;
+    font-weight: 700;
+  }
+}
+
+.main {
+  width: 150rem;
+  height: calc(100vh - 16rem);
+  border: 2px solid $accent-color;
+  background-color: rgba(white, 0.03);
+
+  &__nav {
+    padding: 1rem 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__search {
+      all: unset;
+      font-family: "Roboto", sans-serif;
+      text-align: center;
+      line-height: 3rem;
+      font-size: 2rem;
+      color: $background-color;
+      height: 3rem;
+      width: 40rem;
+      border-radius: 9999rem;
+      overflow: hidden;
+      background-color: rgba(white, 0.75);
+    }
+  }
+
+  &__books-container {
+  }
+}
