@@ -1,7 +1,15 @@
 import { booksContainerEl, state } from "../common.js";
 
 const renderBooks = (current = "default") => {
-  const bookList = current === "default" ? state.books : state.currentBooks;
+  // const bookList = current === "default" ? state.books : state.currentBooks;
+  let bookList;
+  if (current === "default") {
+    bookList = state.books;
+  } else if (current === "current") {
+    bookList = state.currentBooks;
+  } else {
+    bookList = current;
+  }
   if (current === "default") state.currentBooks = [...state.books];
 
   booksContainerEl.innerHTML = "";
