@@ -4,13 +4,12 @@ import renderBooks from "./RenderBooks.js";
 const clickHandler = (e) => {
   const target = e.target.closest("button");
   if (!target) return;
+  state.currentBooks = [...state.books];
   if (target.className.includes("reset")) return renderBooks("default");
   if (target.className.includes("topic")) {
-    const currentBooks = state.books.filter((book) => {
+    state.currentBooks = state.books.filter((book) => {
       return book.topic.includes(target.textContent);
     });
-    state.currentBooks = currentBooks;
-    // renderBooks("current");
   }
   if (target.className.includes("order")) {
     // ! FIX NAMES AND JSON FILE

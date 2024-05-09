@@ -2,6 +2,7 @@ import { booksContainerEl, state } from "../common.js";
 
 const renderBooks = (current = "default") => {
   const bookList = current === "default" ? state.books : state.currentBooks;
+  if (current === "default") state.currentBooks = [...state.books];
 
   booksContainerEl.innerHTML = "";
 

@@ -7,7 +7,7 @@ import { state } from "./common.js";
 
 const main = async () => {
   await getBooks();
-  state.currentBooks = state.books;
+  state.currentBooks = [...state.books];
   await renderBooks();
 };
 
