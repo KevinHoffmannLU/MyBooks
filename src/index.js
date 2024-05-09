@@ -1,6 +1,7 @@
 import "./components/RenderBooks.js";
-import "./components/Books.js";
-import getBooks from "./components/Books.js";
+import "./components/GetBooks.js";
+import "./components/OptionButton.js";
+import getBooks from "./components/GetBooks.js";
 import renderBooks from "./components/RenderBooks.js";
 
 const main = async () => {

@@ -15,12 +15,41 @@
       <div class="header__title">MyBooks</div>
     </header>
 
-    <nav class="nav">
-      <textarea class="nav__search" placeholder="Search for books"></textarea>
-    </nav>
+    <div class="first hidden">
+      <div class="first__description">
+        <h1 class="first__description__title">Welcome to MyBooks</h1>
+        <p class="first__description__text">
+          MyBooks is a platform I made to be able to keep up with all my book
+          purchases.<br /><br />
+          I might some day expand on it to be able to store a wider range of
+          information, such as summaries, a time graph of when I read each book
+          and more.
+        </p>
+      </div>
+      <div class="first__books"></div>
+      <div class="first__btns"></div>
+    </div>
 
-    <div class="books-container">
-      <!-- Books Come Here -->
+    <div class="all">
+      <nav class="nav">
+        <textarea class="nav__search" placeholder="Search for books"></textarea>
+      </nav>
+
+      <main class="main-all">
+        <div class="books-container">
+          <!-- Books Come Here -->
+        </div>
+        <div class="options-container">
+          <div class="options-title">Choose a topic:</div>
+          <button class="options-btn">Philosophy</button>
+          <button class="options-btn">Self-Improvement</button>
+          <button class="options-btn">Science</button>
+          <button class="options-btn">Business</button>
+          <button class="options-btn">Psychology</button>
+          <button class="options-btn">Classics</button>
+          <button class="options-btn">Other</button>
+        </div>
+      </main>
     </div>
   </body>
 </html>

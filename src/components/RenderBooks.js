@@ -1,7 +1,11 @@
 import { booksContainerEl, state } from "../common.js";
 
-const renderBooks = () => {
-  state.books.forEach((book) => {
+const renderBooks = (current = "default") => {
+  const bookList = current === "default" ? state.books : state.currentBooks;
+
+  booksContainerEl.innerHTML = "";
+
+  bookList.forEach((book) => {
     const bookHTML = `
         <div class="books-container__book">
                 <div class="books-container__book__title">
@@ -15,14 +19,16 @@ const renderBooks = () => {
                     alt=""
                 />
                 </div>
-                <div class="books-container__book__status ${
+                <div class="books-container__book__description">
+                <div class="books-container__book__description__status ${
                   book.status === "Read" && "read"
                 } ${book.status === "Reading" && "reading"}">${
       book.status
     }</div>
-                <div class="books-container__book__review">${
+                <div class="books-container__book__description__review">${
                   book.rating
-                }/5</div>
+                }/10</div>
+                </div>
             </div>
     `;
 

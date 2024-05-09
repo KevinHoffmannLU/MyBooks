@@ -1,95 +1,290 @@
 {
   "books": [
     {
-      "title": "Designing Data-Intensive Applications",
-      "author": "Martin Kleppmann",
-      "img": "../img/designing-data-intensive-applications.png",
-      "status": "Not Read",
-      "rating": ""
-    },
-    {
       "title": "12 Rules for Life",
       "author": "Jordan B. Peterson",
       "img": "../img/12-rules-for-life.png",
       "status": "Read",
-      "rating": 3
+      "rating": 6,
+      "topic": "Philosophy",
+      "render": "",
+      "amazon": "https://www.amazon.com/12-Rules-Life-Antidote-Chaos/dp/0345816021",
+      "id": "0"
     },
     {
-      "title": "The Productivity Project",
-      "author": "Chris Bailey",
-      "img": "../img/the-productivity-project.png",
-      "status": "Reading",
-      "rating": 5
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "img": "../img/atomic-habits.png",
+      "status": "Read",
+      "rating": 7,
+      "topic": "Self-Improvement",
+      "render": "",
+      "amazon": "https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299",
+      "id": "1"
     },
     {
-      "title": "Everything You Need to Ace Pre-Algebra and Algebra I in One Big Fat Notebook",
-      "author": "Workman Publishing",
-      "img": "../img/pre-algebra.png",
-      "status": "Not Read",
-      "rating": ""
+      "title": "Beyond Order: 12 More Rules for Life",
+      "author": "Jordan B. Peterson",
+      "img": "../img/12-more-rules.png",
+      "status": "Read",
+      "rating": 5,
+      "topic": "Philosophy",
+      "render": "",
+      "amazon": "https://www.amazon.com/Beyond-Order-More-Rules-Life/dp/0593084640",
+      "id": "2"
     },
     {
-      "title": "The Art of Living a Meaningless Existence",
-      "author": "Robert Pantano",
-      "img": "../img/the-art-of-meaningless.png",
-      "status": "Not Read",
-      "rating": ""
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "img": "../img/deep-work.png",
+      "status": "Read",
+      "rating": 7,
+      "topic": "Self-Improvement",
+      "render": "",
+      "amazon": "https://www.amazon.com/NEW-Deep-Work-Focused-Success-Distracted/dp/B09VQ2WZ4Y",
+      "id": "3"
     },
     {
-      "title": "$100M Offers",
-      "author": "Alex Hormozi",
-      "img": "../img/100m-offers.png",
-      "status": "Not Read",
-      "rating": ""
+      "title": "Ego is the Enemy",
+      "author": "Ryan Holiday",
+      "img": "../img/ego-enemy.png",
+      "status": "Read",
+      "rating": 6,
+      "topic": "Philosophy",
+      "render": "",
+      "amazon": "https://www.amazon.com/Ego-Enemy-Master-Greatest-Opponent/dp/1781257027",
+      "id": "4"
     },
     {
-      "title": "$100M Leads",
-      "author": "Alex Hormozi",
-      "img": "../img/100m-leads.png",
-      "status": "Not Read",
-      "rating": ""
+      "title": "I Will Teach You to Be Rich",
+      "author": "Ramit Sethi",
+      "img": "../img/teach-rich.png",
+      "status": "Read",
+      "rating": "5",
+      "topic": "Business",
+      "render": "",
+      "amazon": "https://www.amazon.com/Will-Teach-You-Rich-Second/dp/1523505745",
+      "id": "5"
+    },
+    {
+      "title": "Essentialism",
+      "author": "Greg McKeown",
+      "img": "../img/essentialism.png",
+      "status": "Read",
+      "rating": "8",
+      "topic": "Self-Improvement",
+      "render": "",
+      "amazon": "https://www.amazon.com/Essentialism-DiScienceplined-Pursuit-Greg-McKeown/dp/0804137404",
+      "id": "6"
+    },
+    {
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert T. Kiyosaki",
+      "img": "../img/rich-dad.png",
+      "status": "Read",
+      "rating": "5",
+      "topic": "Business",
+      "render": "",
+      "amazon": "https://www.amazon.com/Rich-Dad-Poor-Teach-Middle/dp/1612681131",
+      "id": "7"
+    },
+    {
+      "title": "The Art of Logic",
+      "author": "Eugenia Cheng",
+      "img": "../img/art-logic.png",
+      "status": "Read",
+      "rating": "3",
+      "topic": "Science",
+      "render": "",
+      "amazon": "https://www.amazon.com/Art-Logic-Sense-World-Doesnt/dp/1788160398",
+      "id": "8"
+    },
+    {
+      "title": "The 4-Hour Workweek",
+      "author": "Timothy Ferriss",
+      "img": "../img/4-hour-work.png",
+      "status": "Read",
+      "rating": "7",
+      "topic": "Business",
+      "render": "",
+      "amazon": "https://www.amazon.com/4-Hour-Work-Week-Escape-Anywhere/dp/0091929113",
+      "id": "9"
+    },
+    {
+      "title": "Building a Second Brain",
+      "author": "Tiago Forte",
+      "img": "../img/second-brain.png",
+      "status": "Read",
+      "rating": "8",
+      "topic": "Self-Improvement",
+      "render": "",
+      "amazon": "https://www.amazon.com/Bestseller_building-second-BUILDING-SECOND-Paperback/dp/B0BC65FTGR",
+      "id": "10"
+    },
+    {
+      "title": "The PARA Method",
+      "author": "Tiago Forte",
+      "img": "../img/para-method.png",
+      "status": "Read",
+      "rating": "7",
+      "topic": "Self-Improvement",
+      "render": "",
+      "amazon": "https://www.amazon.com/PARA-Method-Simplify-Organize-Digital/dp/1668045567",
+      "id": "11"
     },
     {
       "title": "The Millionaire Fastlane",
       "author": "MJ DeMarco",
       "img": "../img/millionaire-fastlane.png",
       "status": "Read",
-      "rating": "4.5"
+      "rating": "8",
+      "topic": "Business",
+      "render": "",
+      "amazon": "https://www.amazon.com/Millionaire-Fastlane-Crack-Wealth-Lifetime/dp/0984358102",
+      "id": "12"
+    },
+    {
+      "title": "Dopamine Nation",
+      "author": "Anna Lembke",
+      "img": "../img/dopamine-nation.png",
+      "status": "Read",
+      "rating": "7",
+      "topic": "Science Self-Improvement",
+      "render": "",
+      "amazon": "https://www.amazon.com/Dopamine-Nation-Finding-Balance-Indulgence/dp/1524746746",
+      "id": "13"
+    },
+    {
+      "title": "Ikigai",
+      "author": "Héctor García & Francesc Miralles",
+      "img": "../img/ikigai.png",
+      "status": "Read",
+      "rating": "6",
+      "topic": "Philosophy",
+      "render": "",
+      "amazon": "https://www.amazon.com/Ikigai-Japanese-Secret-Long-Happy/dp/0143130722",
+      "id": "14"
+    },
+    {
+      "title": "Designing",
+      "author": "Martin",
+      "img": "../img/designing.png",
+      "status": "Read",
+      "rating": "",
+      "topic": "",
+      "render": "",
+      "amazon": "",
+      "id": ""
+    },
+    {
+      "title": "Designing",
+      "author": "Martin",
+      "img": "../img/designing.png",
+      "status": "Read",
+      "rating": "",
+      "topic": "",
+      "render": "",
+      "amazon": "",
+      "id": ""
+    },
+    {
+      "title": "The Productivity Project",
+      "author": "Chris Bailey",
+      "img": "../img/the-productivity-project.png",
+      "status": "Reading",
+      "rating": "10",
+      "topic": "Self-Improvement",
+      "render": "",
+      "amazon": "",
+      "id": ""
+    },
+    {
+      "title": "Everything You Need to Ace Pre-Algebra and Algebra I in One Big Fat Notebook",
+      "author": "Workman Publishing",
+      "img": "../img/pre-algebra.png",
+      "status": "Not Read",
+      "rating": "",
+      "topic": "",
+      "render": "",
+      "amazon": "",
+      "id": ""
+    },
+    {
+      "title": "The Art of Living a Meaningless Existence",
+      "author": "Robert Pantano",
+      "img": "../img/the-art-of-meaningless.png",
+      "status": "Not Read",
+      "rating": "",
+      "topic": "",
+      "render": "",
+      "amazon": "",
+      "id": ""
+    },
+    {
+      "title": "$100M Offers",
+      "author": "Alex Hormozi",
+      "img": "../img/100m-offers.png",
+      "status": "Not Read",
+      "rating": "",
+      "topic": "",
+      "render": "",
+      "amazon": "",
+      "id": ""
+    },
+    {
+      "title": "$100M Leads",
+      "author": "Alex Hormozi",
+      "img": "../img/100m-leads.png",
+      "status": "Not Read",
+      "rating": "",
+      "topic": "",
+      "render": "",
+      "amazon": "",
+      "id": ""
     },
     {
       "title": "The Personal MBA",
       "author": "Josh kaufman",
       "img": "../img/personal-mba.png",
       "status": "Reading",
-      "rating": ""
+      "rating": "",
+      "topic": "",
+      "render": "",
+      "amazon": "",
+      "id": ""
     },
     {
       "title": "The 7 Habits of Highly Effective People",
       "author": "Stephen R. Covey",
       "img": "../img/the-7-habits.png",
       "status": "Reading",
-      "rating": ""
+      "rating": "",
+      "topic": "",
+      "render": "",
+      "amazon": "",
+      "id": ""
     },
     {
       "title": "",
       "author": "",
       "img": "../img/productivity.png",
       "status": "Not Read",
-      "rating": ""
+      "rating": "",
+      "topic": "",
+      "render": "",
+      "amazon": "",
+      "id": ""
     },
     {
       "title": "",
       "author": "",
       "img": "../img/productivity.png",
       "status": "Not Read",
-      "rating": ""
-    },
-    {
-      "title": "",
-      "author": "",
-      "img": "../img/productivity.png",
-      "status": "Not Read",
-      "rating": ""
+      "rating": "",
+      "topic": "",
+      "render": "",
+      "amazon": "",
+      "id": ""
     }
   ]
 }
