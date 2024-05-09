@@ -26,8 +26,8 @@ const renderBooks = (current = "default") => {
       book.status
     }</div>
                 <div class="books-container__book__description__review">${
-                  book.rating
-                }/10</div>
+                  book.rating ? `${book.rating}/10` : ""
+                }</div>
                 </div>
             </div>
     `;

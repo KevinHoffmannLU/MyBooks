@@ -168,24 +168,24 @@
     {
       "title": "Designing",
       "author": "Martin",
-      "img": "../img/designing.png",
+      "img": "../img/designing-data-intensive-applications.png",
       "status": "Read",
       "rating": "",
       "topic": "",
       "render": "",
       "amazon": "",
-      "id": ""
+      "id": "none"
     },
     {
       "title": "Designing",
       "author": "Martin",
-      "img": "../img/designing.png",
+      "img": "../img/designing-data-intensive-applications.png",
       "status": "Read",
       "rating": "",
       "topic": "",
       "render": "",
       "amazon": "",
-      "id": ""
+      "id": "none"
     },
     {
       "title": "The Productivity Project",
@@ -196,7 +196,7 @@
       "topic": "Self-Improvement",
       "render": "",
       "amazon": "",
-      "id": ""
+      "id": "none"
     },
     {
       "title": "Everything You Need to Ace Pre-Algebra and Algebra I in One Big Fat Notebook",
@@ -207,7 +207,7 @@
       "topic": "",
       "render": "",
       "amazon": "",
-      "id": ""
+      "id": "none"
     },
     {
       "title": "The Art of Living a Meaningless Existence",
@@ -218,7 +218,7 @@
       "topic": "",
       "render": "",
       "amazon": "",
-      "id": ""
+      "id": "none"
     },
     {
       "title": "$100M Offers",
@@ -229,7 +229,7 @@
       "topic": "",
       "render": "",
       "amazon": "",
-      "id": ""
+      "id": "none"
     },
     {
       "title": "$100M Leads",
@@ -240,7 +240,7 @@
       "topic": "",
       "render": "",
       "amazon": "",
-      "id": ""
+      "id": "none"
     },
     {
       "title": "The Personal MBA",
@@ -251,7 +251,7 @@
       "topic": "",
       "render": "",
       "amazon": "",
-      "id": ""
+      "id": "none"
     },
     {
       "title": "The 7 Habits of Highly Effective People",
@@ -262,29 +262,7 @@
       "topic": "",
       "render": "",
       "amazon": "",
-      "id": ""
-    },
-    {
-      "title": "",
-      "author": "",
-      "img": "../img/productivity.png",
-      "status": "Not Read",
-      "rating": "",
-      "topic": "",
-      "render": "",
-      "amazon": "",
-      "id": ""
-    },
-    {
-      "title": "",
-      "author": "",
-      "img": "../img/productivity.png",
-      "status": "Not Read",
-      "rating": "",
-      "topic": "",
-      "render": "",
-      "amazon": "",
-      "id": ""
+      "id": "none"
     }
   ]
 }
