@@ -28,17 +28,13 @@ const clickHandler = (e) => {
     });
   }
   if (target.textContent === "Read Only") {
-    current = [...state.currentBooks].filter((book) => book.status === "Read");
+    current = [...state.currentBooks].filter((book) => book.status === "y");
   }
   if (target.textContent === "Reading Only") {
-    current = [...state.currentBooks].filter(
-      (book) => book.status === "Reading"
-    );
+    current = [...state.currentBooks].filter((book) => book.status === "r");
   }
   if (target.textContent === "Unread Only") {
-    current = [...state.currentBooks].filter(
-      (book) => book.status === "Not Read"
-    );
+    current = [...state.currentBooks].filter((book) => book.status === "n");
   }
   renderBooks(current);
 };
