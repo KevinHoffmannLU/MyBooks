@@ -14,6 +14,7 @@ const renderBooks = (current = "default") => {
 
   booksContainerEl.innerHTML = "";
 
+  let c = 0;
   bookList.forEach((book) => {
     const bookHTML = `
         <div class="books-container__book">
@@ -42,7 +43,15 @@ const renderBooks = (current = "default") => {
     `;
 
     booksContainerEl.insertAdjacentHTML("beforeend", bookHTML);
+    c++;
   });
+
+  // ! Turn this into a div
+  if (c === 0) {
+    booksContainerEl.innerHTML = `
+        No Books Found
+    `;
+  }
 };
 
 export default renderBooks;
