@@ -3,7 +3,7 @@
     {
       "title": "12 Rules for Life",
       "author": "Jordan B. Peterson",
-      "img": "../img/12-rules-for-life.png",
+      "img": "./img/12-rules-for-life.png",
       "status": "y",
       "rating": "6",
       "topic": "phil",
