@@ -1,14 +1,21 @@
-import { booksContainerEl, booksCounterEl, state } from "../common.js";
+import {
+  booksContainerEl,
+  booksCounterEl,
+  searchEl,
+  state,
+} from "../common.js";
 
 const renderBooks = (current = "default") => {
   // const bookList = current === "default" ? state.books : state.currentBooks;
   let bookList;
   if (current === "default") {
     bookList = state.books;
+    searchEl.value = "";
   } else if (current === "current") {
     bookList = state.currentBooks;
+    searchEl.value = "";
   } else {
-    bookList = current;
+    bookList = current; // ! Should fix the search bar issue where it is ignored/ not cleared
   }
   if (current === "default") state.currentBooks = [...state.books];
 
