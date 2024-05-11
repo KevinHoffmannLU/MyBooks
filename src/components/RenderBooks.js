@@ -1,4 +1,4 @@
-import { booksContainerEl, state } from "../common.js";
+import { booksContainerEl, booksCounterEl, state } from "../common.js";
 
 const renderBooks = (current = "default") => {
   // const bookList = current === "default" ? state.books : state.currentBooks;
@@ -32,11 +32,15 @@ const renderBooks = (current = "default") => {
                 </div>
                 <div class="books-container__book__author">${book.author}</div>
                 <div class="books-container__book__img-container">
+                <a href="${
+                  book.amazon
+                }" target="_blank" rel="noopener noreferrer">
                 <img
                     class="books-container__book__img-container__img"
                     src="${book.img}"
                     alt=""
                 />
+                </a>
                 </div>
                 <div class="books-container__book__description">
                 <div class="books-container__book__description__status ${
@@ -53,12 +57,14 @@ const renderBooks = (current = "default") => {
     c++;
   });
 
+  booksCounterEl.textContent = `${c} Results`;
+
   // ! Turn this into a div
-  if (c === 0) {
-    booksContainerEl.innerHTML = `
-        No Books Found
-    `;
-  }
+  // if (c === 0) {
+  //   booksContainerEl.innerHTML = `
+  //       No Books Found
+  //   `;
+  // }
 };
 
 export default renderBooks;

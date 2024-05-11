@@ -12,7 +12,8 @@ const clickHandler = (e) => {
 
   // Change Topic
   state.currentBooks = state.books.filter((book) => {
-    return book.topic.includes(target.textContent.toLowerCase());
+    // return book.topic.includes(target.textContent.toLowerCase());
+    return target.classList.contains(book.topic);
   });
 
   renderBooks("current");

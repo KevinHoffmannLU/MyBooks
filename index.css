@@ -104,6 +104,15 @@ html {
   background-color: rgba(255, 255, 255, 0.75);
 }
 
+.books-counter {
+  position: absolute;
+  top: 12rem;
+  color: #fae9dd;
+  font-size: 1.7rem;
+  font-weight: 700;
+  padding: 1rem;
+}
+
 .main-all {
   display: flex;
   justify-content: center;

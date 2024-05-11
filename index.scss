@@ -122,6 +122,15 @@ html {
   }
 }
 
+.books-counter {
+  position: absolute;
+  top: 12rem;
+  color: $text-color;
+  font-size: 1.7rem;
+  font-weight: 700;
+  padding: 1rem;
+}
+
 // All books main section
 .main-all {
   display: flex;
