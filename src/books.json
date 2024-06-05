@@ -182,7 +182,7 @@
       "img": "./img/100m-leads.png",
       "status": "n",
       "rating": "",
-      "topic": "",
+      "topic": "bus",
       "render": "",
       "amazon": "",
       "id": "none"
@@ -193,7 +193,7 @@
       "img": "./img/100m-offers.png",
       "status": "n",
       "rating": "",
-      "topic": "",
+      "topic": "bus",
       "render": "",
       "amazon": "",
       "id": "none"
@@ -419,6 +419,17 @@
       "id": "none"
     },
     {
+      "title": "Hidden Potential",
+      "author": "Adam Grant",
+      "img": "./img/hidden-potential.jpg",
+      "status": "r",
+      "rating": "",
+      "topic": "self",
+      "render": "",
+      "amazon": "https://www.amazon.com/Hidden-Potential-Science-Achieving-Greater/dp/0593676734",
+      "id": "none"
+    },
+    {
       "title": "Holy Bible",
       "author": "Charles",
       "img": "./img/bible.png",
@@ -537,6 +548,17 @@
       "topic": "clas",
       "render": "",
       "amazon": "https://www.amazon.co.uk/Metamorphosis-Other-Stories-Franz-Kafka/dp/0241372550",
+      "id": "none"
+    },
+    {
+      "title": "Mindset",
+      "author": "Dr Carol Dweck",
+      "img": "./img/mindset.jpg",
+      "status": "n",
+      "rating": "",
+      "topic": "self",
+      "render": "",
+      "amazon": "https://www.amazon.com/Mindset-Updated-Changing-Fulfil-Potential/dp/147213995X",
       "id": "none"
     },
     {
@@ -933,6 +955,17 @@
       "topic": "clas",
       "render": "",
       "amazon": "https://www.amazon.com/Thus-Spoke-Zarathustra-Everyone-Classics/dp/0140441182",
+      "id": "none"
+    },
+    {
+      "title": "Time Wise",
+      "author": "Amantha Imber",
+      "img": "./img/time-wise.jpg",
+      "status": "n",
+      "rating": "",
+      "topic": "self",
+      "render": "",
+      "amazon": "https://www.amazon.com/Time-Wise-Productivity-Successful-Management/dp/1728290856",
       "id": "none"
     }
   ]
