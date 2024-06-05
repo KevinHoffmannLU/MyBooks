@@ -47,43 +47,6 @@ html {
   font-weight: 700;
 }
 
-.first {
-  height: 100%;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 10fr 1fr;
-  padding: 4rem;
-}
-.first__description {
-  grid-column: 1/2;
-  grid-row: 1/3;
-  background-color: rgba(0, 0, 0, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-}
-.first__description__title {
-  color: #deb992;
-  font-size: 3rem;
-  padding: 2rem;
-}
-.first__description__text {
-  color: #fae9dd;
-  font-size: 2rem;
-  padding: 2rem;
-}
-.first__books {
-  grid-column: 2/3;
-  grid-row: 1/2;
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-}
-.first__btns {
-  grid-column: 2/3;
-  grid-row: 2/3;
-  background-color: rgba(0, 0, 0, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
 .nav {
   display: flex;
   justify-content: center;
@@ -246,4 +209,27 @@ html {
 
 .hidden {
   display: none;
+}
+
+@media (max-width: 1500px) {
+  .books-counter {
+    margin-top: 2rem;
+  }
+  .main-all {
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  .books-container {
+    width: 90vw;
+  }
+  .options-container {
+    width: 90vw;
+    height: auto;
+  }
+}
+@media (max-width: 450px) {
+  .nav__search {
+    width: 90vw;
+  }
 }/*# sourceMappingURL=index.css.map */
