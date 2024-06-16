@@ -26,7 +26,7 @@ html {
 .body {
   width: 100vw;
   height: 100vh;
-  background-color: #051622;
+  background-color: #151d28;
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
@@ -39,10 +39,10 @@ html {
   padding: 2rem 0;
   text-align: center;
   text-decoration: underline;
-  text-decoration-color: #1ba098;
+  text-decoration-color: #25562e;
 }
 .header__title {
-  color: #deb992;
+  color: #e7d5b3;
   font-size: 6rem;
   font-weight: 700;
   cursor: pointer;
@@ -60,7 +60,7 @@ html {
   text-align: center;
   line-height: 3rem;
   font-size: 2rem;
-  color: #051622;
+  color: #151d28;
   height: 3rem;
   width: 40rem;
   border-radius: 9999rem;
@@ -71,7 +71,7 @@ html {
 .books-counter {
   position: absolute;
   top: 12rem;
-  color: #fae9dd;
+  color: #ebede9;
   font-size: 1.7rem;
   font-weight: 700;
   padding: 1rem;
@@ -80,19 +80,20 @@ html {
 .main-all {
   display: flex;
   justify-content: center;
-  gap: 2rem;
 }
 
 .books-container {
   width: 70vw;
   height: calc(100vh - 20rem);
-  border: 0.2rem solid #1ba098;
-  background-color: rgba(255, 255, 255, 0.03);
-  box-shadow: 0 0 1rem rgba(255, 255, 255, 0.5);
+  border: 0.2rem solid rgba(255, 255, 255, 0.2);
+  border-right: none;
+  background-color: rgba(0, 0, 0, 0.03);
   border-radius: 0.5rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
   overflow: scroll;
   scrollbar-width: none;
-  color: #fae9dd;
+  color: #ebede9;
   font-size: 2rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(29.4rem, 1fr));
@@ -111,7 +112,6 @@ html {
   height: 41.58rem;
   padding: 2rem;
   border: 0.1rem solid rgba(255, 255, 255, 0.2);
-  background-color: rgba(0, 0, 0, 0.15);
   overflow: hidden;
   transition: all 0.2s;
   position: relative;
@@ -156,21 +156,21 @@ html {
   align-items: center;
 }
 .options-container {
-  width: 20rem;
+  width: 30rem;
   height: calc(100vh - 20rem);
-  background-color: rgba(255, 255, 255, 0.03);
-  border: 0.2rem solid #1ba098;
-  box-shadow: 0 0 1rem rgba(255, 255, 255, 0.5);
+  border: 0.2rem solid rgba(255, 255, 255, 0.2);
+  border-left: none;
   padding: 1rem;
+  padding-right: 4.5rem;
   display: flex;
   flex-direction: column;
 }
 .options-title {
-  color: #deb992;
+  color: #ebede9;
   width: 100%;
   font-size: 2rem;
   font-weight: 700;
-  border-bottom: 1px solid #1ba098;
+  border-bottom: 1px solid #25562e;
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -178,7 +178,7 @@ html {
   margin-top: 1.5rem;
 }
 .options-btn {
-  color: #fae9dd;
+  color: #ebede9;
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
@@ -187,9 +187,13 @@ html {
   padding: 0.8rem 0;
   width: 100%;
   height: 1.5rem;
-  background-color: rgba(27, 160, 152, 0.3);
-  border-radius: 9999rem;
+  background-color: #25562e;
+  border: 0.1rem solid #25562e;
+  border-radius: 1.5rem;
   margin: 0.5rem 0;
+}
+.options-btn:hover {
+  background-color: #468232;
 }
 
 .reset-btn {

@@ -1,8 +1,9 @@
 // Variable
-$background-color: #051622;
-$title-color: #deb992;
-$accent-color: #1ba098;
-$text-color: #fae9dd;
+$background-color: #151d28;
+$title-color: #e7d5b3;
+$accent-color: #25562e;
+$button-color: #25562e;
+$text-color: #ebede9;
 
 // Reset
 *,
@@ -93,17 +94,21 @@ html {
 .main-all {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  // gap: 2rem;
 }
 
 // Books
 .books-container {
   width: 70vw;
   height: calc(100vh - 20rem);
-  border: 0.2rem solid $accent-color;
-  background-color: rgba(white, 0.03);
-  box-shadow: 0 0 1rem rgba(white, 0.5);
+  // border: 0.2rem solid $accent-color;
+  border: 0.2rem solid rgba(white, 0.2);
+  border-right: none;
+  background-color: rgba(black, 0.03);
+  // box-shadow: 0 0 1rem rgba(white, 0.5);
   border-radius: 0.5rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
   overflow: scroll;
   scrollbar-width: none;
 
@@ -126,7 +131,6 @@ html {
     height: 41.58rem;
     padding: 2rem;
     border: 0.1rem solid rgba(white, 0.2);
-    background-color: rgba(black, 0.15);
     overflow: hidden;
     transition: all 0.2s;
 
@@ -188,18 +192,19 @@ html {
 // Options
 .options {
   &-container {
-    width: 20rem;
+    width: 30rem;
     height: calc(100vh - 20rem);
-    background-color: rgba(white, 0.03);
-    border: 0.2rem solid $accent-color;
-    box-shadow: 0 0 1rem rgba(white, 0.5);
+    // background-color: rgba(white, 0.03);
+    border: 0.2rem solid rgba(white, 0.2);
+    border-left: none;
     padding: 1rem;
+    padding-right: 4.5rem;
     display: flex;
     flex-direction: column;
   }
 
   &-title {
-    color: $title-color;
+    color: $text-color;
     width: 100%;
     font-size: 2rem;
     font-weight: 700;
@@ -222,9 +227,14 @@ html {
     padding: 0.8rem 0;
     width: 100%;
     height: 1.5rem;
-    background-color: rgba($accent-color, 0.3);
-    border-radius: 9999rem;
+    background-color: $button-color;
+    border: 0.1rem solid $button-color;
+    border-radius: 1.5rem;
     margin: 0.5rem 0;
+
+    &:hover {
+      background-color: #468232;
+    }
   }
 }
 
