@@ -25,9 +25,9 @@ const renderBooks = (current = "default") => {
   bookList.forEach((book) => {
     let status;
     if (book.status === "y") {
-      status = "Read";
+      status = "Finished";
     } else if (book.status === "r") {
-      status = "Reading";
+      status = "Started";
     } else {
       status = "Unread";
     }
@@ -51,8 +51,8 @@ const renderBooks = (current = "default") => {
                 </div>
                 <div class="books-container__book__description">
                 <div class="books-container__book__description__status ${
-                  status === "Read" && "read"
-                } ${status === "Reading" && "reading"}">${status}</div>
+                  status === "Finished" && "read"
+                } ${status === "Started" && "reading"}">${status}</div>
                 <div class="books-container__book__description__review">${
                   book.rating ? `${book.rating}/10` : ""
                 }</div>
