@@ -26,7 +26,8 @@ html {
 .body {
   width: 100vw;
   height: 100vh;
-  background-color: #151d28;
+  background-image: url("https://cdn.steamstatic.com/steamcommunity/public/images/items/601220/40a4cf356b8d102baa43cc6ec75424634071b539.jpg");
+  background-size: 100% 100%;
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
@@ -39,10 +40,10 @@ html {
   padding: 2rem 0;
   text-align: center;
   text-decoration: underline;
-  text-decoration-color: #25562e;
+  text-decoration-color: #0c266a;
 }
 .header__title {
-  color: #e7d5b3;
+  color: #ebede9;
   font-size: 6rem;
   font-weight: 700;
   cursor: pointer;
@@ -80,6 +81,7 @@ html {
 .main-all {
   display: flex;
   justify-content: center;
+  background-image: linear-gradient(160deg, rgba(9, 13, 30, 0.85), rgba(12, 38, 106, 0.85));
 }
 
 .books-container {
@@ -170,7 +172,7 @@ html {
   width: 100%;
   font-size: 2rem;
   font-weight: 700;
-  border-bottom: 1px solid #25562e;
+  border-bottom: 1px solid #0c266a;
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -187,13 +189,13 @@ html {
   padding: 0.8rem 0;
   width: 100%;
   height: 1.5rem;
-  background-color: #25562e;
-  border: 0.1rem solid #25562e;
+  background-color: #0c266a;
+  border: 0.1rem solid #0c266a;
   border-radius: 1.5rem;
   margin: 0.5rem 0;
 }
 .options-btn:hover {
-  background-color: #468232;
+  background-color: #0c266a;
 }
 
 .reset-btn {

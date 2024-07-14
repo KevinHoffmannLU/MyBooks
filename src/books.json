@@ -177,6 +177,17 @@
       "id": "15"
     },
     {
+      "title": "Everything You Need to Ace Pre-Algebra and Algebra I in One Big Fat Notebook",
+      "author": "Workman Publishing",
+      "img": "./img/pre-algebra.png",
+      "status": "y",
+      "rating": "",
+      "topic": "sci",
+      "render": "",
+      "amazon": "https://www.amazon.com/Everything-Pre-Algebra-Algebra-Notebook-Notebooks/dp/1523504382",
+      "id": "16"
+    },
+    {
       "title": "$100M Leads",
       "author": "Alex Hormozi",
       "img": "./img/100m-leads.png",
@@ -364,17 +375,6 @@
       "id": "none"
     },
     {
-      "title": "Everything You Need to Ace Pre-Algebra and Algebra I in One Big Fat Notebook",
-      "author": "Workman Publishing",
-      "img": "./img/pre-algebra.png",
-      "status": "r",
-      "rating": "",
-      "topic": "sci",
-      "render": "",
-      "amazon": "https://www.amazon.com/Everything-Pre-Algebra-Algebra-Notebook-Notebooks/dp/1523504382",
-      "id": "none"
-    },
-    {
       "title": "Flow",
       "author": "Mihály Csíkszentmihályi",
       "img": "./img/flow.png",
@@ -488,7 +488,7 @@
       "title": "Keep Going",
       "author": "Austin Kleon",
       "img": "./img/keep-going.png",
-      "status": "r",
+      "status": "y",
       "rating": "",
       "topic": "self",
       "render": "",
@@ -631,7 +631,7 @@
       "title": "Show Your Work!",
       "author": "Austin Kleon",
       "img": "./img/show-work.png",
-      "status": "r",
+      "status": "y",
       "rating": "",
       "topic": "self",
       "render": "",
@@ -642,7 +642,7 @@
       "title": "Steal Like and Artist",
       "author": "Austin Kleon",
       "img": "./img/steal-artist.png",
-      "status": "r",
+      "status": "y",
       "rating": "",
       "topic": "self",
       "render": "",

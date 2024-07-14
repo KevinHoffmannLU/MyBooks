@@ -1,8 +1,9 @@
 // Variable
 $background-color: #151d28;
-$title-color: #e7d5b3;
-$accent-color: #25562e;
-$button-color: #25562e;
+$main-gradient: linear-gradient(#1f0309, #811535);
+$title-color: #ebede9;
+$accent-color: #0c266a;
+$button-color: #0c266a;
 $text-color: #ebede9;
 
 // Reset
@@ -34,7 +35,8 @@ html {
 .body {
   width: 100vw;
   height: 100vh;
-  background-color: $background-color;
+  background-image: url("https://cdn.steamstatic.com/steamcommunity/public/images/items/601220/40a4cf356b8d102baa43cc6ec75424634071b539.jpg");
+  background-size: 100% 100%;
   font-family: "Roboto", sans-serif;
 
   display: flex;
@@ -94,6 +96,11 @@ html {
 .main-all {
   display: flex;
   justify-content: center;
+  background-image: linear-gradient(
+    160deg,
+    rgba(9, 13, 30, 0.85),
+    rgba(12, 38, 106, 0.85)
+  );
   // gap: 2rem;
 }
 
@@ -233,7 +240,7 @@ html {
     margin: 0.5rem 0;
 
     &:hover {
-      background-color: #468232;
+      background-color: #0c266a;
     }
   }
 }
