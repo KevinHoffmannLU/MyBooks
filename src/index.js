@@ -2,7 +2,7 @@ import "./components/RenderBooks.js";
 import "./components/GetBooks.js";
 // import "./components/TopicChange.js";
 // import "./components/OrderChange.js";
-// import "./components/Search.js";
+import "./components/Search.js";
 import getBooks from "./components/GetBooks.js";
 import renderBooks from "./components/RenderBooks.js";
 import { state } from "./common.js";

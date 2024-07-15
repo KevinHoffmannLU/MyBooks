@@ -11,3 +11,4 @@ export const state = {
 // export const booksCounterEl = document.querySelector(".books-counter");
 
 export const booksContainerEl = document.querySelector(".books__container");
+export const searchEl = document.querySelector(".header__list-item-nav-search");

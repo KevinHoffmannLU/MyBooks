@@ -137,6 +137,10 @@ button {
 }
 .book__data-author {
   font-size: 0.7em;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .book__data-status {
   font-size: 0.7em;

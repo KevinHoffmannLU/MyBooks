@@ -78,10 +78,18 @@
 
 import { state, booksContainerEl } from "../common.js";
 
-const renderBooks = () => {
+const renderBooks = (current = "def") => {
   booksContainerEl.innerHTML = "";
 
-  state.books.forEach((book) => {
+  let booksList = null;
+
+  if (current === "def") {
+    booksList = state.books;
+  } else {
+    booksList = current;
+  }
+
+  booksList.forEach((book) => {
     const bookHTML = `
       <section class="book">
         <div class="book__img-container">
