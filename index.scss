@@ -69,6 +69,7 @@ button {
   position: relative;
 
   &__options {
+    z-index: 1;
     position: absolute;
     top: 0;
     right: -11em;
@@ -146,8 +147,14 @@ button {
 }
 
 .books {
-  height: 100%;
-  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 5em;
+  padding: 0 calc(50vw - 30em);
+  padding-bottom: 8em;
+
+  height: 100vh;
+  width: 100vw;
 
   overflow: scroll;
   scrollbar-width: none;
@@ -241,7 +248,7 @@ button {
 }
 
 // Media Queries
-@media (max-width: 1100px) {
+@media (max-width: 1350px) {
   .content {
     width: 100vw;
   }
@@ -250,6 +257,19 @@ button {
     top: 2.2em;
     right: 0em;
     width: 10em;
+  }
+  .books {
+    // height: 100vh;
+    // width: 100vw;
+
+    // width: 95rem;
+    // height: 100vh;
+    position: unset;
+
+    padding: 0;
+
+    height: 100%;
+    width: 100%;
   }
 }
 

@@ -10,6 +10,7 @@ export const state = {
 // export const searchEl = document.querySelector(".nav__search");
 // export const booksCounterEl = document.querySelector(".books-counter");
 
+export const booksEl = document.querySelector(".books");
 export const booksContainerEl = document.querySelector(".books__container");
 export const searchEl = document.querySelector(".header__list-item-nav-search");
 export const optionsContainerEl = document.querySelector(".header__options");
