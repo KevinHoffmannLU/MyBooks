@@ -287,6 +287,18 @@ button {
     height: 100%;
     width: 100%;
   }
+
+  .book {
+    width: 13rem;
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 365px) {
+  .book {
+    width: 12rem;
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width: 2000px) {
