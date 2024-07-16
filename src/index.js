@@ -28,40 +28,6 @@ document.addEventListener("click", (e) => {
   }
 });
 
-// document.addEventListener("wheel", (e) => {
-//   if (!booksEl.contains(e.target)) {
-//     if (e.deltaY > 0) {
-//       // booksEl.scrollTop += 100;
-//       scrollBooks("down");
-
-//       // booksEl.scrollBy({
-//       //   top: 100,
-//       //   behavior: "smooth",
-//       // });
-//     } else {
-//       // booksEl.scrollBy({
-//       //   top: -100,
-//       //   behavior: "smooth",
-//       // });
-//       // booksEl.scrollTop -= 100;
-//       scrollBooks("up");
-//     }
-//   }
-// });
-
-// async function scrollBooks(direction) {
-//   const scrollAmount = 100;
-//   const delay = 20;
-//   let scrollCounter = 0;
-//   const scroll = () => {
-//     if (direction === "down") {
-//       booksEl.scrollTop += 1;
-//     } else {
-//       booksEl.scrollTop -= 1;
-//     }
-//     scrollCounter++;
-//     if (scrollCounter < scrollAmount) {
-//       setTimeout(scroll, delay);
-//     }
-//   };
-// }
+window.addEventListener("wheel", () => {
+  optionsContainerEl.classList.add("hidden");
+});
