@@ -12,3 +12,8 @@ export const state = {
 
 export const booksContainerEl = document.querySelector(".books__container");
 export const searchEl = document.querySelector(".header__list-item-nav-search");
+export const optionsContainerEl = document.querySelector(".header__options");
+export const headerTitleEl = document.querySelector(
+  ".header__list-item-icon-title"
+);
+export const optionsLogoEl = document.querySelector(".header__btn-sort");

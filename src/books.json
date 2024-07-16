@@ -195,7 +195,7 @@
       "rating": "",
       "topic": "bus",
       "render": "",
-      "amazon": "",
+      "amazon": "https://www.amazon.com/100M-Leads-Strangers-Want-Stuff/dp/B0C7WK2GF6",
       "id": "none"
     },
     {
@@ -206,7 +206,7 @@
       "rating": "",
       "topic": "bus",
       "render": "",
-      "amazon": "",
+      "amazon": "https://www.amazon.com/100M-Offers-People-Stupid-Saying/dp/B09BK52JFJ",
       "id": "none"
     },
     {
@@ -290,7 +290,7 @@
       "title": "Code",
       "author": "Charles Petzold",
       "img": "./img/code.png",
-      "status": "Reading...",
+      "status": "Read",
       "rating": "",
       "topic": "cs",
       "render": "",

@@ -66,6 +66,40 @@ button {
 }
 
 .header {
+  position: relative;
+
+  &__options {
+    position: absolute;
+    top: 0;
+    right: -11em;
+    width: 10em;
+    background-image: linear-gradient(
+      160deg,
+      rgba(9, 13, 30, 0.8),
+      rgba(12, 38, 106, 0.8)
+    );
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    &-btn {
+      font-size: 1em;
+      font-weight: 500;
+      cursor: pointer;
+      padding: 0.8em 0.6em;
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+    }
+  }
+
+  &__btn-sort {
+    position: absolute;
+    top: 0.8em;
+    right: 0.8em;
+  }
+
   &__list {
     display: flex;
     justify-content: flex-start;
@@ -161,6 +195,10 @@ button {
     &-title {
       font-size: 0.8em;
       font-weight: 500;
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
 
     &-author {
@@ -188,10 +226,30 @@ button {
   color: #f25f5c;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
 // Media Queries
 @media (max-width: 1100px) {
   .content {
     width: 100vw;
+  }
+
+  .header__options {
+    top: 2.2em;
+    right: 0em;
+    width: 10em;
   }
 }
 
