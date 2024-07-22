@@ -1,3 +1,5 @@
 # MyBooks
 
-This is a simple js website to keep count of the books I have read and own so far.
+A simple website that show's mu current book collection and status of each book.
+
+Website: https://kevinhoffmannlu.github.io/MyBooks/
